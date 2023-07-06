@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "roboto";
+    src: url(../../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(../../fonts/Montserrat-Regular.ttf);
+}
+
+$font1: roboto, cursive;
+$font2: montserrat, serif;
+$black1: black;
+$black2:rgb(58, 57, 57);
+$grey: grey; 
+$white1:#eee;
+$color1:rgb(243, 77, 0);
+
+@mixin centerChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
